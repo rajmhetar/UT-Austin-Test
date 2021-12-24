@@ -79,6 +79,7 @@ public class Decompress{
         //because i forgot to put this!!
         //no champagne :(
         //no pop no pop
+        //i am doing a test!
         bitChunks.put(IHuffConstants.PSEUDO_EOF, 1);
         
         return new HTree(bitChunks);
