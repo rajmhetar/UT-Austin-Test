@@ -9,6 +9,7 @@ public class Decompress{
     private BitOutputStream output;
     private HTree tree;
     
+    //i made a change
     public Decompress(InputStream in, OutputStream out) {
         input = new BitInputStream(in);
         output = new BitOutputStream(out);
